@@ -1,5 +1,1 @@
-hello again!!!!!
-
-ls
-aa1.txt activity-1/ demo/ text1.txt text2 text2.pub  text2.txt
-
+hello again!!
