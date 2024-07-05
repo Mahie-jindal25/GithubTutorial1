@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--tells what action will perform whem our form get submitted-->
+    <form action="">
+        <!---input-->
+        <h1>INPUT</h1>
+    <input type="text"><br>
+    <input type ="password">
+    <br>
+    <input type = "date">
+    <br>
+    <input type ="time">
+    <br>
+    <input type ="number">
+    <br>
+    <input type = "color">
+    <hr>
+    <h1>PLACEHOLDER and labels</h1>
+    <label for ="username">USERNAME</label>
+    <input type ="text" placeholder ="Usr Name" id ="username">
+    <br>
+    <label for ="password"> Password</label>
+<input type="password"placeholder ="Password"id ="password" required> <br>   
+<button type ="submit">Submit</button><br>
+<button type ="reset">Reset</button><br>
+<button type ="menu">Menu</button><br>
+<hr>
+<h1>CheckBox</h1>
+<label for ="age">AGE</label>
+<input type ="checkbox" name="age" id ="age" checked>
+<input type ="checkbox" name="age" id ="age" >
+<hr>
+<h1>
+    Radio Button<!--ik na ik choose krna hi hai-->
+</h1>
+<input type ="radio"name ="gender" id ="female"><!---->
+<label for ="female">Female</label>
+<input type ="radio"name ="gender" id ="male">
+<label for ="male">Male</label>
+
+<hr>
+<h1>DropDown</h1>
+<select name ="languages">
+    <option value="">C</option><!--ik language hmasha rhe selected use hoga-->
+    <option value="">C++</option>
+    <option value="">PYTHON</option>
+</select>
+<hr>
+<h1>Range</h1>
+<label for="">Attendence</label>
+<input type="range" min="0" max ="100" name ="attendence" step="10" value="75">
+<hr>
+<h1>TextArea</h1>
+<label for="">Enter your Feedback</label><textarea name =""id="10" cols="" rows="10"></textarea>
+
+
+</form>
+</body>
+</html>
